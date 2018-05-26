@@ -3,10 +3,10 @@
 
 """
 这是一个小强驱动包的假节点。这个节点发布以下几个topic
-/xqserial_server/Odom
-/xqserial_server/StatusFlag
-/xqserial_server/Pose2D
-/xqserial_server/Power
+odom
+status_flag
+pose2d
+power
 位置数据全部为0， 电压数据12V
 同时发布odom -> baselink 的 静态tf变换
 """
@@ -18,13 +18,13 @@ from geometry_msgs.msg import Pose2D
 
 
 if __name__ == "__main__":
-    rospy.init_node("fake_xqserial_server", anonymous=True)
+    rospy.init_node("fake_xiaoqiang_driver", anonymous=True)
     rate = rospy.Rate(50)
-    odom_pub = rospy.Publisher("/xqserial_server/Odom", Odometry, queue_size=0)
-    status_flag_pub = rospy.Publisher("/xqserial_server/StatusFlag", Int32,
+    odom_pub = rospy.Publisher("odom", Odometry, queue_size=0)
+    status_flag_pub = rospy.Publisher("status_flag", Int32,
         queue_size=0)
-    pose_pub = rospy.Publisher("/xqserial_server/Pose2D", Pose2D, queue_size=0)
-    power_pub = rospy.Publisher("/xqserial_server/Power", Float64, queue_size=0)
+    pose_pub = rospy.Publisher("pose2d", Pose2D, queue_size=0)
+    power_pub = rospy.Publisher("power", Float64, queue_size=0)
     while not rospy.is_shutdown():
         now = rospy.Time.now()
         mOdom = Odometry()

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(xqserial_server)
+project(xiaoqiang_driver)
 
 find_package(catkin REQUIRED COMPONENTS
   nav_msgs

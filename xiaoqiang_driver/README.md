@@ -7,6 +7,7 @@ xiaoqiang device drivers
 |cmd_vel|geometry_msgs/Twist|robot velocity|
 |infrared_sensor|std_msgs/Bool|infrared sensor enable flag|
 |imu_cal|std_msgs/Bool|imu correction flag|
+|globalMoveFlag|std_msgs/Bool||
 
 ## output topic
 |name|type|rate|description|
@@ -18,6 +19,8 @@ xiaoqiang device drivers
 |twist|geometry_msgs/Twist|50hz|robot current twist|
 |tf|odom-->base_footprint|50hz|robot tf transform|
 |tf_static|base_footprint-->base_link|100hz|robot tf transform|
+|bar_points|sensor_msgs/PointCloud2|None|object detected by infrared sensor|
+|clear_points|sensor_msgs/PointCloud2|None|??|
 
 ## input param
 
