@@ -1,0 +1,27 @@
+<package format="2">
+  <name>xiaoqiang</name>
+  <version>0.0.1</version>
+  <description>
+      Drivers, description, and utilities for xiaoqiang.
+  </description>
+  <license>MIT</license>
+  <author email="randoms@bwbot.org">Randoms</author>
+  <maintainer email="randoms@randoms.me">Randoms</maintainer>
+  <url type="website">http://www.bwbot.org/content/xiaoqiang</url>
+  <url type="bugtracker">https://github.com/bluewhalerobot/xiaoqiang/issues</url>
+  <url type="repository">https://github.com/bluewhalerobot/xiaoqiang</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>xiaoqiang_description</exec_depend>
+  <!-- <exec_depend>xiaoqiang_bringup</exec_depend>
+  <exec_depend>xiaoqiang_example</exec_depend>
+  <exec_depend>xiaoqiang_navigation</exec_depend>
+  <exec_depend>xiaoqiang_slam</exec_depend>
+  <exec_depend>xiaoqiang_driver</exec_depend>
+  <exec_depend>xiaoqiang_gazebo</exec_depend>
+  <exec_depend>xiaoqiang_msgs</exec_depend>
+  <exec_depend>xiaoqiang_teleop</exec_depend> -->
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
