@@ -1,5 +1,5 @@
 # xiaoqiang driver
-xiaoqiang device drivers
+xiaoqiang motor drivers
 
 ## input topic
 |name|type|description|
@@ -22,7 +22,7 @@ xiaoqiang device drivers
 
 ## published tf transformation
 |name|relation|rate|description|
-|:--|:--|
+|:--|:--|:--|:--|
 |tf|odom-->base_footprint|50hz|robot tf transform|
 |tf_static|base_footprint-->base_link|100hz|robot tf transform|
 
@@ -55,7 +55,7 @@ roslaunch xiaoqiang_driver core.launch
 ## Made with :heart: by BlueWhale Robot.
 
 
-小强各设备驱动
+小强各底盘驱动
 ## 使用方法
 #### 安装到小强ROS工作目录
 ```
