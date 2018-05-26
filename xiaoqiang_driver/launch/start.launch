@@ -1,8 +1,9 @@
 <launch>
-  <node pkg="xiaoqiang_driver" type="xiaoqiang_driver" name="motor_driver">
+  <node name="motor_driver" pkg="xiaoqiang_driver" type="xiaoqiang_driver" ns="xiaoqiang_driver">
     <param name="debug_flag" value="false"/>
     <param name="wheel_separation" value="0.360"/>
     <param name="port" value="/dev/xiaoqiang"/>
+    <remap from="cmd_vel" to="/cmd_vel" />
   </node>
   <node pkg="tf" type="static_transform_publisher" name="baselink_broadcaster" args="0 0 0.15 0 0 0 1 base_footprint base_link 50">
   </node>

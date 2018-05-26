@@ -1,0 +1,11 @@
+ACTION!="add", GOTO="persistent_serial_end"
+SUBSYSTEM!="tty", GOTO="persistent_serial_end"
+KERNEL!="ttyUSB[0-9]*", GOTO="persistent_serial_end"
+
+# This is old 11.10 style: IMPORT="usb_id --export %p"
+IMPORT{builtin}="path_id"
+ENV{ID_SERIAL}=="FTDI_USB__-__Serial"                                    , SYMLINK="stm32Car"        , SYMLINK+="xiaoqiang" , OWNER="xiaoqiang" ,RUN+="/bin/setserial /dev/xiaoqiang low_latency"
+ENV{ID_SERIAL}=="Prolific_Technology_Inc._USB-Serial_Controller"         , SYMLINK="stm32Car"        , SYMLINK+="xiaoqiang" , OWNER="xiaoqiang" ,MODE="0666"
+ENV{ID_SERIAL}=="Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001" , SYMLINK="rplidarA2"       , SYMLINK+="ttyUSB002" , OWNER="xiaoqiang" ,MODE="0666"
+
+LABEL="persistent_serial_end"
