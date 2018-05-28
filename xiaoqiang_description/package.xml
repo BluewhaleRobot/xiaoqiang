@@ -6,11 +6,13 @@
     3D models of the xiaoqiang for simulation and visualization
   </description>
   <license>MIT</license>
+
   <author email="random@bwbot.org">Randoms</author>
   <maintainer email="random@bwbot.org">Randoms</maintainer>
   <url type="bugtracker">https://github.com/bluewhalerobot/xiaoqiang/issues</url>
   <url type="repository">https://github.com/bluewhalerobot/xiaoqiang</url>
   <url type="website">http://www.bwbot.org/content/xiaoqiang</url>
+  
   <buildtool_depend>catkin</buildtool_depend>
   <depend>urdf</depend>
   <depend>xacro</depend>

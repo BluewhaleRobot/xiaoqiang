@@ -3,7 +3,7 @@ xiaoqiang motor drivers
 
 ## input topic
 |name|type|description|
-|:--:|:--:|:--|
+|:--|:--|:--|
 |cmd_vel|geometry_msgs/Twist|robot velocity|
 |infrared_sensor|std_msgs/Bool|infrared sensor enable flag|
 |imu_cal|std_msgs/Bool|imu correction flag|
@@ -49,7 +49,7 @@ catkin_make
 ```
 ### Quickstart
 ```bash
-roslaunch xiaoqiang_driver start.launch
+roslaunch xiaoqiang_driver xiaoqiang_driver.launch
 ```
 
 ## Made with :heart: by BlueWhale Robot.
@@ -58,15 +58,17 @@ roslaunch xiaoqiang_driver start.launch
 小强各底盘驱动
 ## 使用方法
 #### 安装到小强ROS工作目录
-```
+
+```bash
 cd [到你的工作空间]
 git clone https://github.com/BlueWhaleRobot/xiaoqiang.git
 cd ..
 catkin_make
 ```
 ### 直接启动
-```
-roslaunch xiaoqiang_driver start.launch
+
+```bash
+roslaunch xiaoqiang_driver xiaoqiang_driver.launch
 ```
 
 ## 由蓝鲸机器人精 :heart: 制作。

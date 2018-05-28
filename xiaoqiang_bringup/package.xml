@@ -14,5 +14,11 @@
   <depend>rospy</depend>
   <depend>std_msgs</depend>
   <depend>message_runtime</depend>
+  <depend>xiaoqiang_driver</depend>
+  <depend>xiaoqiang_monitor</depend>
+  <depend>xiaoqiang_description</depend>
+  <depend>usb_cam</depend>
+  <depend>rplidar_ros</depend>
+  
 
 </package>

@@ -2,7 +2,7 @@
 <package format="2">
   <name>xiaoqiang_monitor</name>
   <version>0.0.1</version>
-  <description>The xiaoqiang_monitor package</description>
+  <description>monitor the status of xiaoqiang</description>
   <license>MIT</license>
 
   <maintainer email="randoms@bwbot.org">Randoms</maintainer>

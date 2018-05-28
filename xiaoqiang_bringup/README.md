@@ -6,7 +6,7 @@ xiaoqiang launch file package, including launch files to start many devices
 ### download to xiaoqiang ros workspace
 ```
 cd [to your workspace]
-git clone https://github.com/BlueWhaleRobot/xiaoqiang.git
+git clone https://github.com/BluewhaleRobot/xiaoqiang.git
 cd ..
 catkin_make
 ```   
@@ -26,7 +26,7 @@ sudo service xiaoqiang_robot start
 ```
 sudo service xiaoqiang_robot stop
 ```
-## Made with :heart: by BlueWhale Tech corp.
+## Made with :heart: by Bluewhale Robot.
 
 
 小强启动文件包，包含了小强启动各种硬件的launch文件
@@ -55,4 +55,4 @@ sudo service xiaoqiang_robot start
 ```
 sudo service xiaoqiang_robot stop
 ```
-## 由蓝鲸科技精 :heart: 制作。
+## 由蓝鲸机器人精 :heart: 制作。
