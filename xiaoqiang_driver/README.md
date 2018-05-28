@@ -49,7 +49,7 @@ catkin_make
 ```
 ### Quickstart
 ```bash
-roslaunch xiaoqiang_driver core.launch
+roslaunch xiaoqiang_driver start.launch
 ```
 
 ## Made with :heart: by BlueWhale Robot.
@@ -66,7 +66,7 @@ catkin_make
 ```
 ### 直接启动
 ```
-roslaunch xiaoqiang_driver core.launch
+roslaunch xiaoqiang_driver start.launch
 ```
 
 ## 由蓝鲸机器人精 :heart: 制作。

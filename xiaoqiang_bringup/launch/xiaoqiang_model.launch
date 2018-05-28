@@ -1,0 +1,3 @@
+<launch>
+  <include file="$(find xiaoqiang_description)/launch/xiaoqiang_model.launch" />
+</launch>
