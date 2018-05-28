@@ -19,6 +19,6 @@
   <depend>xiaoqiang_description</depend>
   <depend>usb_cam</depend>
   <depend>rplidar_ros</depend>
-  
+  <depend>web_video_server</depend>
 
 </package>

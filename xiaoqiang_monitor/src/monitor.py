@@ -111,16 +111,16 @@ def get_orb_scale_status(flag):
 def monitor():
     global REPORT_PUB
     rospy.init_node("monitor", anonymous=True)
-    rospy.Subscriber("/usb_cam/brightness", UInt32, get_brightness)
-    rospy.Subscriber("/usb_cam/image_raw", Image, get_image)
+    rospy.Subscriber("/camera_node/brightness", UInt32, get_brightness)
+    rospy.Subscriber("/camera_node/image_raw", Image, get_image)
     rospy.Subscriber("/orb_slam/frame", Image, get_orb_start_status)
     rospy.Subscriber("/xiaoqiang_driver/power", Float64, get_power)
     rospy.Subscriber("/xiaoqiang_driver/odom", Odometry, get_odom)
     rospy.Subscriber("/orb_slam/camera", rospy.msg.AnyMsg,
                      get_orb_tracking_flag)
-    rospy.Subscriber("/orb_scale/scale_status", Bool, get_orb_scale_status)
+    rospy.Subscriber("/orb_slam/scale_status", Bool, get_orb_scale_status)
     REPORT_PUB = rospy.Publisher(
-        '/system_monitor/report', status, queue_size=0)
+        '/xiaoqiang_monitor/report', status, queue_size=0)
 
 
 if __name__ == "__main__":

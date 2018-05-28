@@ -214,13 +214,13 @@ class UserServer(threading.Thread):
         self.stop()
 
 
-def getPower(power):
+def get_power(power):
     STATUS_LOCK.acquire()
     STATUS.power = power.data
     STATUS_LOCK.release()
 
 
-def getImage(image):
+def get_image(image):
     STATUS_LOCK.acquire()
     if image != None:
         STATUS.image_status = True
@@ -229,7 +229,7 @@ def getImage(image):
     STATUS_LOCK.release()
 
 
-def getOdom(odom):
+def get_odom(odom):
     global CURRENT_POSE
     STATUS_LOCK.acquire()
     if odom != None:
@@ -241,7 +241,7 @@ def getOdom(odom):
     STATUS_LOCK.release()
 
 
-def getOrbStartStatus(orb_frame):
+def get_orb_start_status(orb_frame):
     STATUS_LOCK.acquire()
     if orb_frame != None:
         STATUS.orb_start_status = True
@@ -250,17 +250,17 @@ def getOrbStartStatus(orb_frame):
     STATUS_LOCK.release()
 
 
-def getOrbTrackingFlag(cam_pose):
+def get_orb_tracking_flag(camera_pose):
     STATUS_LOCK.acquire()
-    if cam_pose != None:
+    if camera_pose != None:
         STATUS.orb_init_status = True
     else:
         STATUS.orb_init_status = False
     STATUS_LOCK.release()
 
 
-def getglobalMoveFlag(moveEn):
-    if not moveEn.data:
+def get_global_move_flag(move_enable):
+    if not move_enable.data:
         # 关闭视觉导航
         if not NAV_THREAD.stopped():
             NAV_THREAD.stop()
@@ -270,14 +270,14 @@ def broadcast():
     global CMD_PUB, GLOBAL_MOVE_PUB, MAV_LAST_TIME
     rospy.init_node("broadcast", anonymous=True)
     MAV_LAST_TIME = rospy.Time.now()
-    rospy.Subscriber("/xiaoqiang_driver/power", Float64, getPower)
-    rospy.Subscriber("/usb_cam/image_raw", Image, getImage)
-    rospy.Subscriber("/odom_combined", Odometry, getOdom)
-    rospy.Subscriber("/orb_slam/camera", rospy.msg.AnyMsg, getOrbTrackingFlag)
-    rospy.Subscriber("/orb_slam/frame", Image, getOrbStartStatus)
+    rospy.Subscriber("/xiaoqiang_driver/power", Float64, get_power)
+    rospy.Subscriber("/usb_cam/image_raw", Image, get_image)
+    rospy.Subscriber("/xiaoqiang_driver/odom", Odometry, get_odom)
+    rospy.Subscriber("/orb_slam/camera", rospy.msg.AnyMsg, get_orb_tracking_flag)
+    rospy.Subscriber("/orb_slam/frame", Image, get_orb_start_status)
     rospy.Subscriber("/xiaoqiang_driver/global_move_flag",
-                     Bool, getglobalMoveFlag)
-    GLOBAL_MOVE_PUB = rospy.Publisher('/globalMoveFlag', Bool, queue_size=1)
+                     Bool, get_global_move_flag)
+    GLOBAL_MOVE_PUB = rospy.Publisher("/xiaoqiang_driver/global_move_flag", Bool, queue_size=1)
     CMD_PUB = rospy.Publisher('/xiaoqiang_driver/cmd_vel', Twist, queue_size=0)
 
 

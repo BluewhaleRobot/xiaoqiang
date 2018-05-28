@@ -5,5 +5,6 @@
   <node pkg="xiaoqiang_monitor" type="monitor.py" name="system_monitor">
     <remap from="usb_cam" to="/camera_node" />
     <remap from="usb_cam/image_raw" to="/camera_node/image_raw" />
+    <remap from="/usb_cam/brightness" to="/camera_node/brightness" />
   </node>
 </launch>

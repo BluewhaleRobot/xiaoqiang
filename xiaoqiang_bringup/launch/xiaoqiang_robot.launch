@@ -9,5 +9,7 @@
   <node pkg="xiaoqiang_server" type="server.py" name="xiaoqiang_server">
     <remap from="usb_cam" to="/camera_node" />
     <remap from="usb_cam/image_raw" to="/camera_node/image_raw" />
+    <remap from="/usb_cam/brightness" to="/camera_node/brightness" />
   </node>
+  <node pkg="web_video_server" type="web_video_server" name="web_node"/>
 </launch>
