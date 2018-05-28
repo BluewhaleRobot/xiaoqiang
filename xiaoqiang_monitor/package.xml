@@ -13,6 +13,6 @@
   <buildtool_depend>catkin</buildtool_depend>
   <depend>rospy</depend>
   <depend>std_msgs</depend>
-  <depend>message_generation</depend>
-
+  <depend>xiaoqiang_msgs</depend>
+  <depend>xiaoqiang_driver</depend>
 </package>

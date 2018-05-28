@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>xiaoqiang_msgs</name>
+  <name>xiaoqiang_server</name>
   <version>0.0.1</version>
-  <description>Messages used by xiaoqiang</description>
+  <description>xiaoqiang remote control server</description>
   <license>MIT</license>
 
   <maintainer email="randoms@bwbot.org">Randoms</maintainer>
@@ -13,6 +13,6 @@
   <buildtool_depend>catkin</buildtool_depend>
   <depend>rospy</depend>
   <depend>std_msgs</depend>
-  <depend>message_generation</depend>
+  <depend>xiaoqiang_msgs</depend>
 
 </package>
