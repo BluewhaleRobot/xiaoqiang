@@ -38,10 +38,10 @@ from geometry_msgs.msg import Pose
 from nav_msgs.msg import Odometry
 from sensor_msgs.msg import Image
 from std_msgs.msg import Bool, Float64, String, UInt32
-from xiaoqiang_msgs.msg import status
+from xiaoqiang_msgs.msg import Status
 
 REPORT_PUB = ""
-STATUS = status()
+STATUS = Status()
 STATUS.brightness = 0
 STATUS.image_status = False
 STATUS.odom_status = False
@@ -120,7 +120,7 @@ def monitor():
                      get_orb_tracking_flag)
     rospy.Subscriber("/orb_slam/scale_status", Bool, get_orb_scale_status)
     REPORT_PUB = rospy.Publisher(
-        '/xiaoqiang_monitor/report', status, queue_size=0)
+        '/xiaoqiang_monitor/report', Status, queue_size=0)
 
 
 if __name__ == "__main__":

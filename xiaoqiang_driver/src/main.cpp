@@ -99,6 +99,7 @@ int main(int argc, char** argv)
   }
   catch (std::exception& e)
   {
+    ROS_ERROR_STREAM("Open " << port << " failed.");
     ROS_ERROR_STREAM("Exception: " << e.what());
   }
 

@@ -49,7 +49,7 @@ from nav_msgs.msg import Odometry
 from sensor_msgs.msg import Image
 from std_msgs.msg import Bool, Float64, Int16, String, UInt32
 from tf.transformations import euler_from_quaternion, quaternion_from_euler
-from xiaoqiang_msgs.msg import status
+from xiaoqiang_msgs.msg import Status
 
 HOST = ''  # should not be 127.0.0.1 or localhost
 USER_SOCKET_PORT = 20001  # 局域网udp命令监听端口
@@ -65,7 +65,7 @@ MAP_SAVE_PUB = None
 
 MAX_VEL = 0.8
 MAX_THETA = 3.6
-STATUS = status()
+STATUS = Status()
 STATUS.brightness = 0.0
 STATUS.image_status = False
 STATUS.odom_status = False

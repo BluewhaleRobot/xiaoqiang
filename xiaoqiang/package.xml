@@ -20,7 +20,7 @@
   <exec_depend>xiaoqiang_msgs</exec_depend>
   <exec_depend>xiaoqiang_monitor</exec_depend>
   <exec_depend>xiaoqiang_server</exec_depend>
-  <!-- <exec_depend>xiaoqiang_teleop</exec_depend> -->
+  <exec_depend>xiaoqiang_controller</exec_depend>
 
 
   <export>
