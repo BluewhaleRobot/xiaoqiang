@@ -61,6 +61,12 @@ Change history
 
 Forthcoming
 -----------
+* update version
+* change version
+* add changeset
+* add navigation and freenect
+* Contributors: xiaoqiang
+
 * add navigation and freenect
 * Contributors: xiaoqiang
 

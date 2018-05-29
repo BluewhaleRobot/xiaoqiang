@@ -4,6 +4,13 @@ Changelog for package xiaoqiang
 
 Forthcoming
 -----------
+* add changeset
+* update readme and package.xml
+* add controller
+* update readme
+* add many packages
+* Contributors: xiaoqiang
+
 * update readme and package.xml
 * add controller
 * update readme
