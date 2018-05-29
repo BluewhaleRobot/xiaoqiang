@@ -59,8 +59,8 @@ Change history
 * Fixed symbolic links in libfreenect ROS wrapper. This prevented the
   system install from working.
 
-Forthcoming
------------
+0.0.3 (2018-05-29)
+------------------
 * update version
 * change version
 * add changeset
