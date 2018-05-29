@@ -59,6 +59,11 @@ Change history
 * Fixed symbolic links in libfreenect ROS wrapper. This prevented the
   system install from working.
 
+Forthcoming
+-----------
+* add navigation and freenect
+* Contributors: xiaoqiang
+
 0.0.2
 -----
 * xiaoqiang_freenect_stack reorganized and released for ROS Fuerte.
