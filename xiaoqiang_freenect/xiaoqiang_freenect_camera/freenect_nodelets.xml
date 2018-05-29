@@ -1,0 +1,10 @@
+<!-- OpenNI driver nodelet publisher -->
+<library path="lib/libfreenect_nodelet">
+
+  <class name="xiaoqiang_freenect_camera/driver" type="xiaoqiang_freenect_camera::DriverNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+      OpenNI camera driver nodelet.
+    </description>
+  </class>
+
+</library>
