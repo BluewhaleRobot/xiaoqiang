@@ -14,5 +14,6 @@
   <depend>rospy</depend>
   <depend>std_msgs</depend>
   <depend>xiaoqiang_msgs</depend>
+  <depend>xiaoqiang_freenect</depend>
 
 </package>

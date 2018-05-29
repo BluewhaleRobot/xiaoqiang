@@ -1,6 +1,6 @@
 <package>
 
-  <name>xiaoqiang_freenect_stack</name>
+  <name>xiaoqiang_freenect</name>
   <version>0.0.3</version>
   <description>
     A libfreenect-based ROS driver for the Microsoft Kinect
