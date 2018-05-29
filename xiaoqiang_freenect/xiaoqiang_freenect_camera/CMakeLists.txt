@@ -36,20 +36,20 @@ include_directories(include
                     ${LOG4CXX_INCLUDE_DIRS})
 
 # build the node and nodelet
-add_executable(freenect_node src/nodes/freenect_node.cpp)
-target_link_libraries(freenect_node
+add_executable(xiaoqiang_freenect_node src/nodes/freenect_node.cpp)
+target_link_libraries(xiaoqiang_freenect_node
                       ${catkin_LIBRARIES}
                       ${LIBFREENECT_LIBRARY}
                       ${Boost_LIBRARY})
-add_dependencies(freenect_node ${PROJECT_NAME}_gencfg)
+add_dependencies(xiaoqiang_freenect_node ${PROJECT_NAME}_gencfg)
 
-add_library(freenect_nodelet src/nodelets/driver.cpp )
-target_link_libraries(freenect_nodelet
+add_library(xiaoqiang_freenect_nodelet src/nodelets/driver.cpp )
+target_link_libraries(xiaoqiang_freenect_nodelet
                       ${catkin_LIBRARIES}
                       ${LIBFREENECT_LIBRARY}
                       ${Boost_LIBRARY}
                       ${LOG4CXX_LIBRARIES})
-add_dependencies(freenect_nodelet ${PROJECT_NAME}_gencfg)
+add_dependencies(xiaoqiang_freenect_nodelet ${PROJECT_NAME}_gencfg)
 
 catkin_package(DEPENDS
                libfreenect
@@ -63,11 +63,11 @@ catkin_package(DEPENDS
                sensor_msgs)
 
 # install the node and nodelet
-install(TARGETS freenect_node
+install(TARGETS xiaoqiang_freenect_node
         RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
         COMPONENT main)
 
-install(TARGETS freenect_nodelet
+install(TARGETS xiaoqiang_freenect_nodelet
         LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION})
 
 # add xml file

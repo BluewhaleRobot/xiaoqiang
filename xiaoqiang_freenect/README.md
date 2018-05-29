@@ -15,7 +15,7 @@ roslaunch xiaoqiang_freenect freenect-xyz.launch
 ```
 #### 2.publish tilt motor position topic
 ```
-rostopic pub /set_tilt_degree std_msgs/Int16 '{data: -20}' -r 1
+rostopic pub set_tilt_degree std_msgs/Int16 '{data: -20}' -r 1
 ```
 {data: -20} is the motor position,you can change -20 to any integer number in [-30 30].
 
