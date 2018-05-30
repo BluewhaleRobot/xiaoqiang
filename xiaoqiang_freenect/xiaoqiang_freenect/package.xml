@@ -7,7 +7,7 @@
     Modified version of xiaoqiang_freenect_stack, add tilt angle control support
   </description>
 
-  <maintainer email="randoms@randoms.me">Randoms</maintainer>
+  <maintainer email="randoms@bwbot.org">Randoms</maintainer>
   <maintainer email="xiefs@foxmail.com">Xie fusheng</maintainer>
   <author>Piyush Khandelwal</author>
   <license>BSD</license>  
