@@ -2,6 +2,9 @@
 Changelog for package xiaoqiang_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.3 (2018-05-29)
 ------------------
 * add controller
