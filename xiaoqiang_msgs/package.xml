@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>xiaoqiang_msgs</name>
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <description>Messages used by xiaoqiang</description>
   <license>MIT</license>
 
