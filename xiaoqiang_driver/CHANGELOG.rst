@@ -2,6 +2,9 @@
 Changelog for package xiaoqiang_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.5 (2018-05-30)
 ------------------
 

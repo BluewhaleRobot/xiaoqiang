@@ -52,7 +52,7 @@ target_link_libraries(xiaoqiang_freenect_nodelet
 add_dependencies(xiaoqiang_freenect_nodelet ${PROJECT_NAME}_gencfg)
 
 catkin_package(DEPENDS
-               libfreenect
+               LIBFREENECT
                CATKIN_DEPENDS
                camera_info_manager
                diagnostic_updater
