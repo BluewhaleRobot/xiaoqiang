@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>xiaoqiang_monitor</name>
-  <version>0.0.6</version>
+  <version>0.0.7</version>
   <description>monitor the status of xiaoqiang</description>
   <license>MIT</license>
 

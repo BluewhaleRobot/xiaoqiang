@@ -1,6 +1,6 @@
 <package>
   <name>xiaoqiang_freenect_camera</name>
-  <version>0.0.6</version>
+  <version>0.0.7</version>
   <description>
     A libfreenect-based ROS driver for the Microsoft Kinect.  This is
     a port of the OpenNI driver that uses libfreenect instead, because

@@ -2,8 +2,8 @@
 Changelog for package xiaoqiang_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.7 (2018-06-01)
+------------------
 * fix typo
 * Contributors: xiaoqiang
 

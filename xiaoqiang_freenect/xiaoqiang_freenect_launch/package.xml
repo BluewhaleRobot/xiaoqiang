@@ -1,7 +1,7 @@
 <package>
 
   <name>xiaoqiang_freenect_launch</name>
-  <version>0.0.6</version>
+  <version>0.0.7</version>
   <description>
     Launch files for xiaoqiang_freenect_camera to produce rectified, registered
     or disparity images.  Also produce point clouds and registered
