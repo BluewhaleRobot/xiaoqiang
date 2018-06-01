@@ -37,7 +37,7 @@ from visualization_msgs.msg import Marker
 class MoveBaseSquare:
 
     def __init__(self):
-        rospy.init_node('nav_test', anonymous=False)
+        rospy.init_node('xiaoqiang_navigation', anonymous=False)
 
         rospy.on_shutdown(self.shutdown)
 

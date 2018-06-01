@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo cp `rospack find xiaoqiang_driver`/udev/* /etc/udev/rules.d/
+sudo cp `rospack find xiaoqiang_driver`/udevs/* /etc/udev/rules.d/
 sudo udevadm control --reload-rules
 sudo udevadm trigger
 echo "dev config file recovered, you need to replugin your devices and restart startup service."
