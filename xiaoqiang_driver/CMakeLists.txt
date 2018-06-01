@@ -57,6 +57,6 @@ install(
 )
 
 install(
-  FILES  scripts/fixudevs
+  FILES  scripts/fixudev
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
