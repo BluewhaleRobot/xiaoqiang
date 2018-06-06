@@ -2,6 +2,12 @@
 Changelog for package xiaoqiang_freenect_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add xiaoqiang navigation
+* add depth image process
+* Contributors: xiaoqiang
+
 0.0.7 (2018-06-01)
 ------------------
 

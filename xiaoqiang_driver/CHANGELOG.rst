@@ -2,6 +2,12 @@
 Changelog for package xiaoqiang_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add depth image process
+* fix udev rules and some package names
+* Contributors: Zhang Weijia, xiaoqiang
+
 0.0.7 (2018-06-01)
 ------------------
 * fix typo

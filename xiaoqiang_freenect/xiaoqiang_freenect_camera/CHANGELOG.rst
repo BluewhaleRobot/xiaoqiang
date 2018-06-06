@@ -2,6 +2,11 @@
 Changelog for package xiaoqiang_freenect_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add depth image process
+* Contributors: xiaoqiang
+
 0.0.7 (2018-06-01)
 ------------------
 
