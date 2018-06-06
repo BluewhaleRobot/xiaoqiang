@@ -2,8 +2,8 @@
 Changelog for package xiaoqiang_server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.8 (2018-06-06)
+------------------
 * fix udev rules and some package names
 * Contributors: Zhang Weijia
 
