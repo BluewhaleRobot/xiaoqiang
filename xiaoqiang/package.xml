@@ -18,6 +18,7 @@
   <exec_depend>xiaoqiang_freenect</exec_depend>
   <exec_depend>xiaoqiang_monitor</exec_depend>
   <exec_depend>xiaoqiang_msgs</exec_depend>
+  <exec_depend>xiaoqiang_navigation</exec_depend>
   <exec_depend>xiaoqiang_server</exec_depend>
   <!-- <exec_depend>xiaoqiang_example</exec_depend> -->
   <!-- <exec_depend>xiaoqiang_slam</exec_depend> -->
