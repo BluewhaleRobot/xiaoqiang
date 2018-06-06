@@ -1,0 +1,23 @@
+<package>
+
+  <name>xiaoqiang_navigation</name>
+  <version>0.0.7</version>
+  <description>
+    xiaoqiang navigaion related
+  </description>
+
+  <maintainer email="randoms@bwbot.org">Randoms</maintainer>
+  <maintainer email="xiefs@foxmail.com">Xie fusheng</maintainer>
+  <author>Xie Fusheng</author>
+  <license>MIT</license>  
+
+  <url type="website">http://ros.org/wiki/xiaoqiang_navigation</url>
+  <url type="repository">https://github.com/bluewhalerobot/xiaoqiang_navigation.git</url>
+  <url type="bugtracker">https://github.com/bluewhalerobot/xiaoqiang_navigation/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>xiaoqiang_navigation_example</run_depend>
+  <run_depend>xiaoqiang_addwa_local_planner</run_depend>
+
+</package>
