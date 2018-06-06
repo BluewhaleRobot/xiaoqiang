@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>xiaoqiang_depth_image_proc</name>
+  <version>0.0.7</version>
+  <description>
+     Modified version of depth image process, add occupancy xyz
+
+     Contains nodelets for processing depth images such as those
+     produced by OpenNI camera. Functions include creating disparity
+     images and point clouds, as well as registering (reprojecting)
+     a depth image into another camera frame.
+
+  </description>
+  <license>MIT</license>
+
+  <author email="xiefs@foxmail.com">Xie fusheng</author>
+  <maintainer email="xiefs@foxmail.com">Xie fusheng</maintainer>
+  <maintainer email="randoms@bwbot.org">Randoms</maintainer>
+
+  
+  <url type="bugtracker">https://github.com/bluewhalerobot/xiaoqiang/issues</url>
+  <url type="repository">https://github.com/bluewhalerobot/xiaoqiang</url>
+  <url type="website">http://www.bwbot.org/content/xiaoqiang</url>
+
+  <export>
+    <nodelet plugin="${prefix}/nodelet_plugins.xml" />
+  </export>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>stereo_msgs</build_depend>
+
+  <depend>boost</depend>
+  <depend>cv_bridge</depend>
+  <depend>eigen_conversions</depend>
+  <depend>image_geometry</depend>
+  <depend>image_transport</depend>
+  <depend>nodelet</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+</package>

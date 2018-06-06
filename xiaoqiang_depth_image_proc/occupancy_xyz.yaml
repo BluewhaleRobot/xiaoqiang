@@ -1,0 +1,44 @@
+# grid cell resolution
+resolution: 0.025
+
+# the position of the lower left border  [x,y]
+lowerLeftPos: [0.45,1.3]
+
+#the  height of map grid, the width of grid map=2*LowerLeftPos_.y
+gridHeight: 2.0
+
+#the Width length of  lower left border that kinect can seen
+usingWidth: 0.25
+
+#the height length of kinect must seen area
+usingHeight_up: 0.25
+
+#the start height length of kinect must seen area
+usingHeight_down: 0.10
+
+#kinect install height beside floor
+kinectHeight: 0.39
+
+#min bar height
+barHeight_min: 0.06
+
+#max bar height
+barHeight_max: 0.5
+
+#0 whole pointcloud,1 whole pointcloud exclude floor points
+point_mode: 1
+
+#out put topic frame_id
+frame_id: kinect_link_new
+
+# transform rotation matrix
+R: [0., -0.34560884, 0.93837867, -1., 0., 0., 0., -0.93837867, -0.34560884]
+
+# transform trasition vector
+T: [0.,0.,0.]
+
+# value,below this consider as clear area
+bar_threshold: 50
+
+# single bar point scoreing
+single_score: 2

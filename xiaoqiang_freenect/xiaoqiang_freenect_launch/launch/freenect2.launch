@@ -113,7 +113,7 @@
     </include>
 
     <!-- Load standard constellation of processing nodelets -->
-    <include if="$(arg load_driver)" file="$(find rgbd_launch)/launch/includes/processing2.launch.xml">
+    <include if="$(arg load_driver)" file="$(find xiaoqiang_freenect_launch)/launch/includes/processing2.launch.xml">
       <arg name="manager"                         value="$(arg manager)" />
       <arg name="rgb"                             value="$(arg rgb)" />
       <arg name="ir"                              value="$(arg ir)" />
@@ -135,7 +135,7 @@
 
   <!-- Load reasonable defaults for the relative pose between cameras -->
   <include if="$(arg publish_tf)"
-	   file="$(find rgbd_launch)/launch/kinect_frames2.launch">
+	   file="$(find xiaoqiang_freenect_launch)/launch/kinect_frames2.launch">
     <arg name="camera" value="$(arg camera)" />
   </include>
 

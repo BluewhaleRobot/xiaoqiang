@@ -15,7 +15,6 @@ xiaoqiang motor drivers
 |odom|nav_msgs/Odometry|50hz|robot odometry|
 |pose2d|geometry_msgs/Pose2D|50hz|robot pose2d|
 |power|std_msgs/Float64|50hz|robot battery voltage|
-|infrared_sensor|std_msgs/Int32|50hz|infrared sensor status|
 |twist|geometry_msgs/Twist|50hz|robot current twist|
 |bar_points|sensor_msgs/PointCloud2|None|objects detected by infrared sensor|
 |clear_points|sensor_msgs/PointCloud2|None|no object at target points|

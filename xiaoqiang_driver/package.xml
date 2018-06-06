@@ -5,6 +5,7 @@
   <description>The xiaoqiang driver package</description>
   <license>MIT</license>
 
+  <author email="xiefs@foxmail.com">Xie fusheng</author>
   <maintainer email="xiefs@foxmail.com">Xie fusheng</maintainer>
   <maintainer email="randoms@bwbot.org">Randoms</maintainer>
   <url type="bugtracker">https://github.com/bluewhalerobot/xiaoqiang/issues</url>
