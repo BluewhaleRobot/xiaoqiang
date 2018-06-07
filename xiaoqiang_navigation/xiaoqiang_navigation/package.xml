@@ -17,7 +17,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <run_depend>addwa_local_planner</run_depend>
   <run_depend>xiaoqiang_navigation_example</run_depend>
-  <run_depend>xiaoqiang_addwa_local_planner</run_depend>
 
 </package>
