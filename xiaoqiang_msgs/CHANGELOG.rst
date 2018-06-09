@@ -2,6 +2,9 @@
 Changelog for package xiaoqiang_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.9 (2018-06-07)
 ------------------
 
