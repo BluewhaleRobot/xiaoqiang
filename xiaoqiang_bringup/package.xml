@@ -11,6 +11,7 @@
   <url type="website">http://www.bwbot.org/content/xiaoqiang</url>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <depend>robot_upstart</depend>
   <depend>rospy</depend>
   <depend>std_msgs</depend>
   <depend>message_runtime</depend>
