@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>xiaoqiang_controller</name>
-  <version>0.0.10</version>
+  <version>0.0.11</version>
   <description>xiaoqiang controller package, use terminal to move xiaoqiang around</description>
   <license>MIT</license>
 

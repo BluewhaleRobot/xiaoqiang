@@ -2,8 +2,8 @@
 Changelog for package xiaoqiang_depth_image_proc
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.11 (2018-06-14)
+-------------------
 * fix linking error
 * Contributors: xiaoqiang
 
