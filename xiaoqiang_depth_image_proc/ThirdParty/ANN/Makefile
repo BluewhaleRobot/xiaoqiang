@@ -57,6 +57,7 @@ default:
 # main make entry point
 #-----------------------------------------------------------------------------
 alpha-g++ macosx-g++ linux-g++ sgi sunos4 sunos4-g++ sunos5 sunos5-g++ sunos5-g++-sl authors-debug authors-perf:
+    mkdir bin lib
 	cd src ; $(MAKE) $@
 	cd test ; $(MAKE) $@
 	cd sample ; $(MAKE) $@
