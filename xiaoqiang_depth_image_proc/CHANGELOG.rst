@@ -2,6 +2,12 @@
 Changelog for package xiaoqiang_depth_image_proc
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix ANN build error
+* fix ann build
+* Contributors: xiaoqiang
+
 0.0.11 (2018-06-14)
 -------------------
 * fix linking error

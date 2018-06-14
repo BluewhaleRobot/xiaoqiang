@@ -2,6 +2,9 @@
 Changelog for package xiaoqiang_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.11 (2018-06-14)
 -------------------
 

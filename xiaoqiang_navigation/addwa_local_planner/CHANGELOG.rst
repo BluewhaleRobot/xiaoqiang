@@ -2,6 +2,11 @@
 Changelog for package addwa_local_planner
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix addwa build error
+* Contributors: xiaoqiang
+
 0.0.11 (2018-06-14)
 -------------------
 * fix linking error
