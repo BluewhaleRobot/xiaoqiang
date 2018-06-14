@@ -2,6 +2,11 @@
 Changelog for package addwa_local_planner
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix linking error
+* Contributors: xiaoqiang
+
 0.0.10 (2018-06-09)
 -------------------
 * add navigation and add fix depth image dependency

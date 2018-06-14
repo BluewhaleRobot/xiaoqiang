@@ -2,6 +2,9 @@
 Changelog for package xiaoqiang_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.10 (2018-06-09)
 -------------------
 * add navigation and add fix depth image dependency
