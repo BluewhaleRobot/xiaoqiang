@@ -36,6 +36,14 @@ add_library(${PROJECT_NAME} src/nodelets/convert_metric.cpp
                              src/nodelets/point_cloud_xyzi_radial.cpp
                              src/nodelets/register.cpp
 )
+        
+execute_process(
+        WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/ThirdParty/ANN
+        COMMAND "make" "linux-g++"
+        RESULT_VARIABLE RES
+
+)
+
 target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${PROJECT_SOURCE_DIR}/ThirdParty/ANN/lib/libANN.a)
 
 install(DIRECTORY include/${PROJECT_NAME}/
