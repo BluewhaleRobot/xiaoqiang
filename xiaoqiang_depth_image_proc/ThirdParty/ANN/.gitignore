@@ -1,2 +1,4 @@
-lib
-bin
+lib/*.o
+lib/*.a
+bin/*.o
+bin/ann*
