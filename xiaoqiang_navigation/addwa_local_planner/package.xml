@@ -1,6 +1,6 @@
 <package>
     <name>addwa_local_planner</name>
-    <version>0.0.11</version>
+    <version>0.0.12</version>
     <description>
         a modified version of dwa local planner
     </description>
